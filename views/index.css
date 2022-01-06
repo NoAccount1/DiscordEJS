@@ -1,0 +1,21 @@
+body {
+  font-family: arial;
+  margin: 0;
+  padding: 0;
+}
+#ch-title {
+  position: fixed; 
+  top: 0;
+  background-color: #ddd;
+  border: 1px solid black;
+  padding: 5px 45%;
+  margin: 0;
+}
+#ch-content {
+  margin: 50px 25px 0;
+}
+#chat {
+  position: fixed; 
+  bottom: 0;
+  padding: 5px 50%;
+}

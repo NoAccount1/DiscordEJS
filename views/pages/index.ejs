@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <%- include('../partials/head', {
+    guild: guild,
+    channel: channel
+  }); %>
+</head>
+<body class="container">
+
+<header>
+  <%- include('../partials/header'); %>
+</header>
+
+<main>
+  <div id="content">
+    <h3><%=`${guild}/#${channel}`%></h3>
+    <div>
+      <% messages.forEach(i => { %>
+        <%- i %>
+      <% }) %>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <%- include('../partials/footer'); %>
+</footer>
+
+</body>
+</html>

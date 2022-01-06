@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <h3 id="ch-title">${guild} - ${channel}</h3>
+    <div id="ch-content">
+      ${
+        for (let m of messages ) {
+          return m
+        }
+      }
+    </div>
+    <input id="chat"></input>
+  </body> 
+</html>
