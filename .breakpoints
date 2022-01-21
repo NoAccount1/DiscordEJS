@@ -1,3 +1,18 @@
 {
-  "files": {}
+  "files": {
+    "console.js": [
+      {
+        "id": "b000eda8-35ac-45b9-8a1b-c939544429d1",
+        "line": 57,
+        "version": 2926,
+        "index": 1786
+      },
+      {
+        "id": "0f3ec249-6865-43dd-8767-85bea9c5c364",
+        "line": 58,
+        "version": 2926,
+        "index": 1822
+      }
+    ]
+  }
 }
