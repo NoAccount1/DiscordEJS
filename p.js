@@ -1,6 +1,16 @@
-const c = require('./tools/colors.js')
+var log = [];
+console.log = function() {
+    log.push([].slice.call(arguments));
+};
 
-console.log(c('coucou', null, '#123446'))
+process.openStdin().addListener('data', async input => {
+  console.log(input)
+  console.log(log)
+})
+
+// const c = require('./tools/colors.js')
+
+// console.log(c('coucou', null, '#123446'))
 
 /* const Discord = require('discord.js');
 const client = new Discord.Client({ ws: { intents: new Discord.Intents(Discord.Intents.ALL) } });

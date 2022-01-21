@@ -1,30 +1,23 @@
 {
   "name": "Discord",
   "version": "1.0.0",
-  "description": "",
+  "description": "A Discord client for console and old navigators",
   "main": "index.js",
   "dependencies": {
-    "consolidate": "^0.16.0",
+    "console.history": "^1.5.1",
     "discord.js": "^12.5.3",
-    "discord.js.userbot": "^1.0.3",
     "ejs": "^3.1.6",
-    "electron": "^16.0.4",
     "express": "^4.17.2",
-    "express-es6-template-engine": "^2.2.3",
-    "jshint": "^2.13.2",
-    "prompt": "^1.2.0",
-    "prompt-sync": "^4.2.0",
-    "sugar": "^2.0.6",
-    "swig-templates": "^2.0.3",
-    "tools": "0.0.0",
-    "vim": "^0.1.0",
     "websocket": "^1.0.34"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "jshint": "^2.13.2"
+  },
   "scripts": {
+    "console": "node console.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Matthieu",
   "license": "ISC"
 }
