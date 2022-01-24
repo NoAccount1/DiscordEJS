@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "outDir": "./dist/",
+    "removeComments": true,
+    "resolveJsonModule": true,
+    "rootDir": "./src/",
+    "skipLibCheck": true,
+    "sourceMap": false,
+    "strict": true,
+    "target": "ESNext",
+    "typeRoots": ["node_modules/@types"]
+  },
+  "exclude": ["node_modules", "dist"],
+  "files": ["src/Bot.ts"],
+  "include": ["./**/*.ts"],
+  "lib": ["es2015"]
+}
