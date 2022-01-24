@@ -19,7 +19,7 @@
     "typeRoots": ["node_modules/@types"]
   },
   "exclude": ["node_modules", "dist"],
-  "files": ["src/Bot.ts"],
+  "files": ["./src/Bot.ts"],
   "include": ["./**/*.ts"],
   "lib": ["es2015"]
 }
